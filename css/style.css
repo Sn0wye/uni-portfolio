@@ -1,7 +1,48 @@
 /* =========================================
-   Google Fonts
+   Custom Fonts (@font-face)
    ========================================= */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Syne:wght@700&display=swap');
+
+/* Biotif - Body font */
+@font-face {
+  font-family: 'Biotif';
+  src: url('../assets/fonts/Biotif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Biotif';
+  src: url('../assets/fonts/Biotif-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Biotif';
+  src: url('../assets/fonts/Biotif-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Biotif';
+  src: url('../assets/fonts/Biotif-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* NeuzeitGrotesk - Heading font */
+@font-face {
+  font-family: 'NeuzeitGrotesk';
+  src: url('../assets/fonts/NeuzeitGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* =========================================
    CSS Variables (dark theme default)
@@ -61,7 +102,7 @@ html {
 body {
   background-color: var(--bg);
   color: var(--secondary);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Biotif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   line-height: 1.75;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -84,7 +125,7 @@ body {
    Typography
    ========================================= */
 h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'NeuzeitGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 3rem;
   line-height: 3.125rem;
   margin-bottom: 1.25rem;
@@ -96,7 +137,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'NeuzeitGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1.5rem;
   color: var(--primary);
   margin-top: 3.5rem;
@@ -550,7 +591,7 @@ footer .footer__email:hover    { color: var(--primary); }
   border: 1px solid var(--border);
   border-radius: 0.5rem;
   color: var(--primary);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Biotif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   padding: 0.5rem 0.75rem;
   outline: none;
@@ -589,7 +630,7 @@ footer .footer__email:hover    { color: var(--primary); }
   border-radius: 0.5rem;
   background: var(--primary);
   color: var(--bg);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Biotif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
