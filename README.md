@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido com HTML5, CSS3 e JavaScript puro para a discipl
 
 ## Acesso
 
-> Publicado em: https://Sn0wye.github.io/portfolio/
+> Publicado em: https://Sn0wye.github.io/uni-portfolio/
 
 ## Estrutura de Arquivos
 
@@ -47,10 +47,10 @@ Abra `index.html` diretamente no navegador — não requer servidor ou build too
 
 ## Páginas
 
-| Página | Arquivo | Descrição |
-|---|---|---|
-| Home | `index.html` | Apresentação com CTA |
-| Sobre Mim | `sobre.html` | Bio, fotos, destaques de carreira |
-| Formação | `formacao.html` | Carreira, educação, idiomas, habilidades |
-| Projetos | `projetos.html` | Projetos em destaque + lista completa |
-| Contato | `contato.html` | Formulário com validação JS |
+| Página    | Arquivo         | Descrição                                |
+| --------- | --------------- | ---------------------------------------- |
+| Home      | `index.html`    | Apresentação com CTA                     |
+| Sobre Mim | `sobre.html`    | Bio, fotos, destaques de carreira        |
+| Formação  | `formacao.html` | Carreira, educação, idiomas, habilidades |
+| Projetos  | `projetos.html` | Projetos em destaque + lista completa    |
+| Contato   | `contato.html`  | Formulário com validação JS              |
