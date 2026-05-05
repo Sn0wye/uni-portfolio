@@ -71,7 +71,7 @@
 	--instagram: #e1306c;
 
 	/* Layout */
-	--nav-desktop: 60px;
+	--nav-desktop: 80px;
 	--nav-mobile: 110px;
 	--max-w: 48rem;
 }
@@ -301,7 +301,7 @@ img {
 .navbar__nav a {
 	position: relative;
 	display: inline-block;
-	padding: 1.25rem;
+	padding: 12px 16px;
 	font-size: 0.75rem;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -735,7 +735,6 @@ footer .footer__email:hover {
 	/* Add margin bottom to navbar on desktop */
 	.navbar {
 		margin-bottom: 2rem;
-		padding-bottom: 0.75rem;
 	}
 
 	/* Reduce top padding now that navbar is single-row */
